@@ -1,0 +1,47 @@
+
+footer{
+    border: solid;
+}
+.caja1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3px;
+}
+.acerca_cemex{
+    width: 138px;
+    height: 224px;
+    border: solid;
+    border-color: green;
+  
+}
+
+.media_links{
+    width: 138px;
+    height: 224px;
+    border: solid;
+    border-color:lightslategray;
+  
+}
+.caja_botones{
+    width:283px;
+    height:184px;
+    border: solid;
+    border-color: blue;
+}
+.caja_descargas{
+    width: 283px;
+    height: 224px;
+    border: solid;
+    border-color: chartreuse;
+}
+.caja2{
+    border: solid;
+    display: flex;
+}
+.caja_terminos{
+    width: 1191px;
+    height: 68px;
+    border: solid;
+    border-color: gold;
+    margin: 0px auto;
+}
