@@ -9,15 +9,15 @@ class DemoCarousel extends Component {
     return (
             <Carousel>
                 <div>
-                    <img src="assets/1.jpeg" />
+                    <img src="assets/1.jpeg" alt='no hay'/>
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="assets/2.jpeg" />
+                    <img src="assets/2.jpeg" alt='no hay' />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
-                    <img src="assets/3.jpeg" />
+                    <img src="assets/3.jpeg" alt='no hay'/>
                     <p className="legend">Legend 3</p>
                 </div>
             </Carousel>
@@ -26,3 +26,5 @@ class DemoCarousel extends Component {
 }
 
 ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'))
+
+export default Carousel

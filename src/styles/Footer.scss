@@ -1,18 +1,27 @@
 
 footer{
     border: solid;
+    background-color: #023185;
 }
 .caja1{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 3px;
+    display:flex;
+    color: white;
 }
 .acerca_cemex{
     width: 138px;
     height: 224px;
     border: solid;
     border-color: green;
-  
+    margin-left: 82px;
+   
+}
+.acerca_cemex p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+opacity: .6;
+}
+.acerca_cemex a{
+    color: #fff;
 }
 
 .media_links{
@@ -20,19 +29,33 @@ footer{
     height: 224px;
     border: solid;
     border-color:lightslategray;
-  
+    margin-left: 50px;
+}
+.media_links p{
+ opacity: .6;
+}
+.media_links a{
+    color: #fff;
 }
 .caja_botones{
     width:283px;
     height:184px;
     border: solid;
     border-color: blue;
+    margin-left: 50px;
+}
+.caja_botones a{
+    color: #fff;
 }
 .caja_descargas{
     width: 283px;
     height: 224px;
     border: solid;
     border-color: chartreuse;
+    margin-left: 230px;
+}
+.caja_descargas P{
+    opacity: .6;
 }
 .caja2{
     border: solid;
@@ -44,4 +67,9 @@ footer{
     border: solid;
     border-color: gold;
     margin: 0px auto;
+}
+.caja_terminos a,p{
+    color: #fff;
+    opacity: .6;
+    
 }
