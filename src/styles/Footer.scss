@@ -1,75 +1,138 @@
 
 footer{
-    border: solid;
     background-color: #023185;
 }
 .caja1{
     display:flex;
     color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .acerca_cemex{
-    width: 138px;
+    width: 182px;
     height: 224px;
-    border: solid;
     border-color: green;
-    margin-left: 82px;
-   
-}
-.acerca_cemex p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-opacity: .6;
-}
-.acerca_cemex a{
-    color: #fff;
+    margin-left: 40px;
+    text-align:left ;
+    ul{
+        list-style: none;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        opacity: .6;
+    }
+    a{
+        font-size: 14px;
+        color: #fff;
+        padding-top: 20px;
+        padding-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 16px;
+    }
 }
 
 .media_links{
-    width: 138px;
+    width: 182px;
     height: 224px;
-    border: solid;
-    border-color:lightslategray;
-    margin-left: 50px;
+    margin-left: 20px;
+    text-align:left ;
+
+    ul{
+        list-style: none;
+    }
+    p{
+        opacity: .6;
+        
+    }
+    a{
+        font-size: 14px;
+        color: #fff;
+        padding-top: 20px;
+        padding-left: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 16px;
+    }
 }
-.media_links p{
- opacity: .6;
-}
-.media_links a{
-    color: #fff;
-}
+
 .caja_botones{
     width:283px;
     height:184px;
-    border: solid;
-    border-color: blue;
-    margin-left: 50px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-top: 25px;
+    ul{    
+        list-style: none;
+    }
+    a{
+        color: #fff;
+    }
+    button{
+        width: 48px;
+        height: 48px;
+        background-color: transparent;
+        border: solid 1px rgba(22,151,243,0.3);
+        border-radius: 24px;
+        margin-bottom: 20px;
+        &:hover{
+            background-color: #fff;
+            color: #023185;
+        }
+    }
+    span{
+        padding-top:15px ;
+        margin-left: 16px;
+    }
+    
 }
-.caja_botones a{
-    color: #fff;
-}
+
 .caja_descargas{
     width: 283px;
     height: 224px;
-    border: solid;
-    border-color: chartreuse;
-    margin-left: 230px;
+    margin-left: 222px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    P{
+        opacity: .6;
+    }
+    img{
+        width: 125px;
+        height: 36px;
+        padding-top: 16px;
+       
+    }
+    .social{
+        p{
+            padding-top: 10px;
+        }
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
 }
-.caja_descargas P{
-    opacity: .6;
-}
+
 .caja2{
-    border: solid;
     display: flex;
 }
-.caja_terminos{
+
+.caja_terminos {
     width: 1191px;
     height: 68px;
-    border: solid;
-    border-color: gold;
     margin: 0px auto;
-}
-.caja_terminos a,p{
+    display: flex;
+    a{
     color: #fff;
-    opacity: .6;
-    
+    opacity: .6; 
+    align-items: center;
+    }
+    span{
+        color: #fff;
+        opacity: .6;
+        display: flex;
+        align-items: center;
+        margin-left: 55%;
+    }
 }
