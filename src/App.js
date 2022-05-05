@@ -5,6 +5,9 @@ import './App.css'
 import Foo from './components/Footer'
 import { Carrusel } from './components/Carrusel'
 
+//React router
+//listado de paginas de rutas
+
 function App () {
   return (
     <div className="App">
